@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoapp</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .btn{
+            padding:20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        #add{
+            padding: 10px;
+            width: 200px;
+            margin-top: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            color: brown;
+        }
+        ul {
+   list-style: none;  
+} 
+#todo{
+    border-radius: 10px;
+}
+li {
+  padding: 5px 10px;
+  margin-top: 10px;
+  width:300px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  border: 1px solid #DDDDDD;
+}
+#todo{
+    padding: 25px;
+    width: 300px;
+    height: 10px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+            <div class="btn">
+                <form>
+                    <input id="todo" type="type" name="todo" placeholder="add your todo" required />
+                </form>
+                <button id="add">ADD TODO</button>
+            </div>         
+            <ul id="todolist">
+                     <li id="item1">list 1</li>
+            </ul>
+        </section>       
+    </header>
+    <script src="todo.js"></script>
+</body>
+</html>
