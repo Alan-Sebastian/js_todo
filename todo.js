@@ -1,8 +1,8 @@
 var btnadd=document.getElementById("add");//to perform add function
-var btnup=document.getElementById("update");
-var btndel=document.getElementById("delete")
-var first=document.getElementById("item1");
-var todo=document.getElementById("todo")
+var btnup=document.getElementById("update");//to perform update
+var btndel=document.getElementById("delete");//to perform delete
+var first=document.getElementById("item1");//select first item
+var todo=document.getElementById("todo");//get text 
 var content='';
 todo.addEventListener('input',function(e){
 content=e.target.value;
